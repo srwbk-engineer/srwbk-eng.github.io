@@ -24,24 +24,24 @@ body {
     text-align: center;
 }
 
-.navigation ul {
+.navi ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navigation ul li {
+.navi ul li {
     padding: 10px;
     margin: 20px;
 }
 
-.navigation ul li a {
+.navi ul li a {
     text-decoration: none;
     color: #ffffff;
 }
 
-.navigation ul li a:hover {
+.navi ul li a:hover {
     text-decoration: underline;
     color: #439eff;
 }
