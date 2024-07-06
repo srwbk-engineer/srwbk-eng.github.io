@@ -2,8 +2,6 @@
 
 /* Result Defualt styles */
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -14,3 +12,30 @@ body {
     font-style: normal;
 } 
 
+.card { 
+    max-width: 350px;
+    margin: auto;
+}
+
+.card.is-active .card-avatar { 
+    transform: none;
+    left: 20px; 
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+}
+
+.card-avatar { 
+    width: 100px;
+    height: 100px; 
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    -o-object-position: center;
+       object-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+    /* position: absolute; */
+    /* bottom: 0;  */
+    /* left: 50%; */
+    /* transform: translateX(-50%) translateY(-64px); */
+}
