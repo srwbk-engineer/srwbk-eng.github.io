@@ -12,36 +12,5 @@ body {
     font-family: "IBM Plex Mono", monospace;
     font-weight: 500;
     font-style: normal;
-    background-color: #439eff;
-}
+} 
 
-
-/* Header styles */
-.header {
-    background-color: #000000;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-}
-
-.navi ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navi ul li {
-    padding: 10px;
-    margin: 20px;
-}
-
-.navi ul li a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.navi ul li a:hover {
-    text-decoration: underline;
-    color: #439eff;
-}
